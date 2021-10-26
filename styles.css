@@ -1,0 +1,84 @@
+body {
+	background: black;
+	font-size: 15px;
+}
+
+/** {
+	border: 1px dashed red;
+	min-height: 10px;
+}*/
+
+p {
+	color: black;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	font-family: "Brush Script MT", cursive;
+}
+
+.postcard-header {
+	display: flex;
+	margin-left: 5px;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left {
+	padding: 10px;
+	width: 250px;
+	margin-left: 1px;
+}
+
+.body-right {
+	padding: 5px;
+	width: 140px;
+	font-size: 15px;
+	font-family: "Brush Script MT", cursive;
+	margin-right: 5px;
+}
+
+.postcard-footer {
+	text-align: center;
+	font-family: "Brush Script MT", cursive;
+	font-size: 15px;
+	margin: auto;
+}
+
+#imagen {
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+#encabezado {
+	margin: 5px;
+	width: 550px;
+	margin-top: 15px;
+}
+
+#entradas {
+	font-size: 15px;
+	border-bottom: 2px solid gray;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	font-family: "Brush Script MT", cursive;
+}
+
+#parrafo {
+	font-size: 15px;
+	text-align: justify;
+	margin-top: 0px;
+}
+
+#boton {
+	font-family: "Brush Script MT", cursive;
+	background-color: rgb(163, 159, 159);
+}
